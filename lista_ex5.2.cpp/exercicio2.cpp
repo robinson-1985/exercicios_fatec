@@ -3,7 +3,6 @@ existentes entre dois números que o usuário digitar (testar inclusive os núme
 digitados). */
 
 #include <stdio.h>
-
 int main(){
     int n1, n2, impar = 0;
     printf("Digite dois numeros: \n");

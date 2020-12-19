@@ -2,7 +2,6 @@
 for múltiplo de 10, exiba a mensagem “MÚLTIPLO DE 10”. */
 
 #include <stdio.h>
-
 int main(){
     int i;
 

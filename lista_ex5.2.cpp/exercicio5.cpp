@@ -3,7 +3,6 @@ Dica: O fatorial de um número N é dado pela fórmula:
 N! = 1 * 2 * 3 * 4 * 5 * ... * N.       */
 
 #include <stdio.h>
-
 int main(){
     int fatorial, n;
     printf("Insira um valor pelo qual deseja calcular o seu fatorial: \n");

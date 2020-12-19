@@ -10,7 +10,6 @@ Digite um número: 4.
 
 #include <stdio.h>
 #include <math.h>
-
 int main(){
     int n = 0, i = 0;
     printf("\nInforme a tabuada que você deseja: \n");
