@@ -1,4 +1,4 @@
-/*17. Faça um programa para resolver equações do 2o grau.
+/* 17. Faça um programa para resolver equações do 2o grau.
 ax2 + bx + c = 0
 A variável a deve ser diferente de zero.
 Δ = (b*b) -4 * a * c
@@ -7,7 +7,7 @@ A variável a deve ser diferente de zero.
 x = (-b) / (2 * a)
 Δ > 0 → existem duas raízes reais
 x1 = (-b + raiz(delta))/ (2 * a)
-x2 = (-b - raiz(delta))/ (2 * a)*/
+x2 = (-b - raiz(delta))/ (2 * a) */
 
 #include<stdio.h>
 #include<math.h>

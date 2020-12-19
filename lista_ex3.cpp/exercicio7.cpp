@@ -2,13 +2,7 @@
  Fahrenheit. A fórmula de conversão é:
  F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.*/
 
-/*A fórmula de conversão é:
-F=(9*C+160) / 5, sendo F a temperatura em
-Fahrenheit e C a temperatura em Celsius.
-*/
-
 #include<stdio.h>
-
 int main (){
     float celsius ,fahrenheit;
     printf("Digite temperatura em graus Celsius \t");

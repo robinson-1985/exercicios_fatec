@@ -6,8 +6,7 @@ que a média exigida é 6,0.
 Média Ponderada                                Conceito 
 0--------3                                     Reprovado
 3--------7                                       Exame
-7--------10                                    Aprovado
-*/
+7--------10                                    Aprovado */
 
 #include <stdio.h>
 int main(){

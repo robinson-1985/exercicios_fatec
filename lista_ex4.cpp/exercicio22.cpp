@@ -25,16 +25,14 @@ Até R$ 500,00                    De 6 anos para cima               R$ 33
 Salário líquido                          Classificação
 Até R$ 350,00                               A
 Entre R$ 350,00 e R$ 600,00                 B
-De R$ 600,00 para cima                      C 
-
-*/
+De R$ 600,00 para cima                      C                */
 
 #include <stdio.h>
 int main(){
     float sal_base, tempo_de_servico, imposto, sal_liquido, gratificacao;
-    printf("\nDigite o seu salario: \n");
+    printf("Digite o seu salario: R$ ");
     scanf("%f", &sal_base);
-    printf("\nDigite o tempo de servico: \n");
+    printf("Digite o tempo de servico: R$ ");
     scanf("%f", &tempo_de_servico);
 
     if(sal_base < 200){ 
@@ -69,7 +67,7 @@ int main(){
 
     sal_liquido = (sal_base - imposto) + gratificacao;
 
-    printf("\nEsse e o seu novo salario: %.2f \n", sal_liquido);
+    printf("\nEsse é o seu novo salário: R$%.2f \n", sal_liquido);
 
     if(sal_liquido <= 350){
         printf("\nClassificacao A\n");
