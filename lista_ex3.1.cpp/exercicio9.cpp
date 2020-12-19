@@ -2,7 +2,6 @@
 DD/MM/AAAA – mês por extenso e hora:minuto. */
 
 #include <stdio.h>
-
 int main(){
     int dia, mes, ano, mes_por_extenso, inteira_hs;
     float horas, minutos;

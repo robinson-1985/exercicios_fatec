@@ -10,7 +10,6 @@ Média Ponderada                                Conceito
 */
 
 #include <stdio.h>
-
 int main(){
     float n1, n2, n3, media, exame;
     printf("\nDigite a nota do aluno: \n");

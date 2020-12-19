@@ -10,7 +10,6 @@ Código            Cargo                     Percentual
 5              Diretor                       Não tem aumento           */
 
 #include <stdio.h>
-
 int main(){
     float salario, aumento, novo_sal, valor_aumento, cargo;
     printf("\nDigite o código do seu cargo (1,2,3,4,5) \n");

@@ -2,7 +2,6 @@
 Suponha que o usuário digitará três números diferentes. */
 
 #include <stdio.h>
-
 int main(){
     int n1, n2, n3;
     

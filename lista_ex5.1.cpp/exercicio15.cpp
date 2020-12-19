@@ -40,7 +40,6 @@ impostos dos doze produtos.
 ■ A quantidade de produtos com classificação normal.*/
 
 #include <stdio.h>
-
 int main(){
     float preco_unitario, custo_estocagem, imposto, preco_maior = 0,  preco_menor = 10000, preco_final, media_custo_estocagem, total_imposto = 0, valores_adicionais;
     char refrigeracao, categoria;

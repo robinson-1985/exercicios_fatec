@@ -4,7 +4,6 @@ duração do jogo (horas e minutos), sabendo que o tempo máximo de duração do
 é de 24 horas e que ele pode começar em um dia e terminar no dia seguinte.*/
 
 #include<stdio.h>
-
 int main(){
     int hora_inicial, minuto_inicial, hora_final, minuto_final, hora_duracao, minuto_duracao;
     printf("Digite o horario inicial: \n");

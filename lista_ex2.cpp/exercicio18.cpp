@@ -18,7 +18,7 @@ int main(){
     quantidade = (q_racao * 5);
     resto = saco - quantidade;
 
-    printf("\nApos 5 dias sobrara %.2f kg de racao \n \n",resto);
+    printf("\nApós 5 dias sobrará %.2f kg de racao \n \n",resto);
 
     getchar();
     return 0;

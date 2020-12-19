@@ -4,7 +4,6 @@ em ordem decrescente. Suponha que o usuário digitará quatro números diferente
 
 #include <stdio.h>
 #include <locale.h> 
-
 int main(){
     setlocale(LC_ALL,"portuguese"); 
     int n1,n2,n3,n4;

@@ -3,7 +3,6 @@ fornecidas pelo usuário. Cada data deve ser composta por três valores inteiros
 que o primeiro representa o dia, o segundo, o mês e o terceiro, o ano.*/
 
 #include <stdio.h>
-
 int main(){
     int maior, menor, dia1, dia2, mes1, mes2, ano1, ano2;
     printf("Declare o dia: \n");

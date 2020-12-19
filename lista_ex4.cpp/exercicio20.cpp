@@ -22,7 +22,6 @@ comprado e depende do país de origem;
 //Refazer esse exercício.
 
 #include <stdio.h>
-
 int main(){
     float codigoProduto, pesoProduto, codigoOrigem, precoTotal, valorImposto = 0, valorTotal;
     printf("\nDigite o codigo do produto: \n");

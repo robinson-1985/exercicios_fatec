@@ -16,11 +16,11 @@ int main(){
     
     quilowatts = sal_minimo/5;
 
-    printf("O valor do quilowatt e: %.2f \n", quilowatts);
+    printf("O valor do quilowatts é: %.2f \n", quilowatts);
 
     valor_total = consumo_quilowatts * quilowatts;
 
-    printf("O valor de quilowatts a ser pago por essa residencia e: %.2f \n", valor_total);
+    printf("O valor de quilowatts a ser pago por essa residência e: %.2f \n", valor_total);
     
     valor_pagar = valor_total * 0.85;
 

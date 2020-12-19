@@ -14,7 +14,7 @@ int main(){
 
     resultado = pessoa / degrau;
 
-    printf("\nVoce devera subir essa quantidade de degraus: %.2f\n", resultado);
+    printf("\nVocê subirá essa quantidade de degraus: %.2f\n", resultado);
     
     getchar();
     return 0;
