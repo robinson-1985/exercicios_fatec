@@ -7,7 +7,7 @@ int main(){
     int crescente;
 
     for(int i=0; i<10; i++){
-        printf("Digite os valores: \n");
+        printf("Digite um número: \n");
         scanf("%d",&vetor[i]);
     }
 
@@ -17,7 +17,6 @@ int main(){
                 printf("Esses são os valores crescentes: %d\n",vetor[i]);
             }
     }
-
 
     getchar();
     return 0;

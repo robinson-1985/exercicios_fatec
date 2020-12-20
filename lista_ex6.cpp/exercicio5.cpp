@@ -4,10 +4,9 @@ imprima a quantidade de números pares e a quantidade de números impares. */
 #include <stdio.h>
 int main(){
     int vetor[6];
-    int par, impar;
 
     for(int i=0; i<6; i++){
-        printf("Digite os valores: \n");
+        printf("Digite um número inteiro: \n");
         scanf("%d", &vetor[i]);
     }
 
