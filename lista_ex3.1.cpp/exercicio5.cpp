@@ -26,12 +26,15 @@ int main(){
     if ( n4 > n3){
         printf("A ordem decresente dos números é: %d,%d,%d,%d. \n",n4,n3,n2,n1);
     }
+
     else if  (n4 > n2){
         printf("A ordem decresente dos números é: %d,%d,%d,%d. \n",n3,n2,n4,n1);
     }
+
     else if  (n4 > n1){
         printf("A ordem decresente dos números é: %d,%d,%d,%d. \n",n3,n4,n2,n1);
     }
+    
      else if  (n4 < n1){
         printf("A ordem decresente dos números é: %d,%d,%d,%d. \n",n4,n3,n2,n1);
     }

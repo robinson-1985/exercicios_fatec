@@ -29,13 +29,15 @@ int main(){
     printf("\n\n");
 
     if (I == 1){
-        if(A < B && B < C);
-        printf("A ordem crescente dos n�meros digitados �:%.0f,%.0f,%.0f \n\n",A,B,C);
+        if(A < B && B < C){
+            printf("A ordem crescente dos n�meros digitados �:%.0f,%.0f,%.0f \n\n",A,B,C);
+        }
     }
 
     else if (I == 2 ){
-        if(A < B && B < C);
-        printf("A ordem decrescente dos números digitados é:%.0f,%.0f,%.0f \n\n",C,B,A);
+        if(A < B && B < C){
+           printf("A ordem decrescente dos números digitados é:%.0f,%.0f,%.0f \n\n",C,B,A);
+        }
     }
 
     else if (I == 3){

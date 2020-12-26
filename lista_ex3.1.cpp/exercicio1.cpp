@@ -18,7 +18,6 @@ Média Ponderada                                Conceito
 0--------5                                        E                 */
 
 #include<stdio.h>
-
 int main(){
     float nota1, nota2, nota3, nota_final, media_ponderada;
     printf("Digite a nota do Trabalho de laboratório: \n");
