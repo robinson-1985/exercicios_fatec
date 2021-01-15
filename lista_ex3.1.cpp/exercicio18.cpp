@@ -9,7 +9,6 @@ lados;
 ■ recebe o nome de escaleno o triângulo que tem os três lados diferentes. */
 
 #include <stdio.h>
-
 int main(){
     float x, y, z;
     printf("\nInforme o valor de x: \n");
@@ -22,12 +21,15 @@ int main(){
     if(x < y + z && y < z + x && z < x + y){
         printf("\nTriangulo \n");
     }
+
     else if(x == y || x == z){
         printf("\nTriangulo Equilatero \n");
     }
+
     else if(x == y || y == z || z == x){
         printf("\nTriangulo Isoceles \n");
     }
+    
     else{
         printf("\nTriangulo Escaleno \n");
     }

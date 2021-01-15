@@ -25,11 +25,13 @@ int main(){
     if((media >=0 && media < 3)) {
         printf("Sua média é %.2f,portanto está reprovado \n",media);
     }
+
     else if((media >=3) && (media < 7)) {
         exame = 6 - media;
         printf("Sua média é %.2f,portanto está em exame \n",media);
         printf("Faltam %.2f pontos para você ser aprovado. \n\n",exame);
     }
+    
     else if ((media >= 7) && (media <= 10)) {
         printf("Sua média é %.2f,portanto está aprovado \n",media);
     }

@@ -34,18 +34,23 @@ int main(){
     if(media_ponderada>8 && media_ponderada<10){
         printf("Obteve o conceito: A \n");
     }
+
     else if(media_ponderada>7 && media_ponderada<8){
         printf("Obteve o conceito: B \n");
     }
+
     else if(media_ponderada>6 && media_ponderada<7){
         printf("Obteve o conceito: C \n");
     }
+
     else if(media_ponderada>5 && media_ponderada<6){
         printf("Obteve o conceito: D \n");
     }
+
     else if(media_ponderada>0 && media_ponderada<5){
         printf("Obteve o conceito: E \n");
     }
+    
     else{
         printf("Nota inválida! \n");
     }

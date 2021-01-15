@@ -14,33 +14,37 @@ x2 = (-b - raiz(delta))/ (2 * a) */
 
 int main (){
     float a,b,c,delta,x,x1,x2;
-    printf("Digite valor para a \t");
+    printf("Digite valor para a: ");
     scanf("%f%*c",& a);
-    printf("Digite valor para b \t");
+    printf("Digite valor para b: ");
     scanf("%f%*c",& b);
-    printf("Digite valor para c \t");
+    printf("Digite valor para c: ");
     scanf("%f%*c",& c);
     
     if(a==0){
         printf("Não é equacao de 2 grau");
     }
+
     else{
         delta= (b*b)-4 *a*c;
     }
+
     if(delta < 0 ){
         printf("não existe raiz real");
     }
+
     else if(delta == 0){
-            printf("existe uma raiz real \n");
-            x = (-b) / (2 * a);
-            printf("%f",x);
+        printf("existe uma raiz real \n");
+        x = (-b) / (2 * a);
+        printf("%f",x);
     }
+
     else if(delta > 0){
-            printf("existem duas raízes reais \n");
-            x1 = (-b + sqrt(delta))/ (2 * a);
-            x2 = (-b - sqrt(delta))/ (2 * a);
-            printf("%f \t",x1);
-            printf("%f",x2);
+        printf("existem duas raízes reais \n");
+        x1 = (-b + sqrt(delta))/ (2 * a);
+        x2 = (-b - sqrt(delta))/ (2 * a);
+        printf("%f \t",x1);
+        printf("%f",x2);
     }
     
     getchar();

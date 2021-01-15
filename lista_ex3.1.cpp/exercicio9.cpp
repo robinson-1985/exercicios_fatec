@@ -3,7 +3,7 @@ DD/MM/AAAA – mês por extenso e hora:minuto. */
 
 #include <stdio.h>
 int main(){
-    int dia, mes, ano, mes_por_extenso, inteira_hs;
+    int dia, mes, ano, horas, mes_por_extenso, inteira_horas;
     float horas, minutos;
     printf("Informe o dia da seguinte forma: DD \n");
     scanf("%d", &dia);
@@ -19,44 +19,55 @@ int main(){
     if(mes == 1){
 	    printf("Janeiro \n");
     }
+
     else if(mes == 2){
 	    printf("Fevereiro \n");
     }
+
     else if(mes == 3){
 	    printf("Março \n");
     }
+
     else if(mes == 4){
 	    printf("Abril \n");
     }
+
     else if(mes == 5){
 	    printf("Maio \n");
     }
+
     else if(mes == 6){
 	    printf("Junho \n");
     }
+
     else if(mes == 7){
 	    printf("Julho \n");
     }
+
     if(mes == 8){
 	    printf("Agosto \n");
     }
+
     else if(mes == 9){
 	    printf("Setembro \n");
     }
+
     else if(mes == 10){
 	    printf("Outubro \n");
     }
+
     else if(mes == 11){
 	    printf("Novembro \n");
     }
+
     else if(mes == 12){
 	    printf("Dezembro\n");
     }
 
     horas = (int)horas;
-    minutos = (horas - inteira_hs)*100;
+    minutos = (horas - inteira_horas)*100;
 
-    printf("O horário informado é %.2d:%.2f.\n", inteira_hs, minutos);
+    printf("O horário informado é %.2d:%.2f.\n", inteira_horas, minutos);
 
     getchar();
     return 0;

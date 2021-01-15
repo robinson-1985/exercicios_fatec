@@ -6,10 +6,7 @@ Até R$ 350,00                               R$ 100,00
 Superior a R$ 350,00                        R$ 50,00                            */
 
 #include <stdio.h>
-#include <locale>
-
 int main(){
-    setlocale( LC_ALL, "Portuguese");
     float sal_receber, sal_liquido, gratificacao;
     printf("\nDigite o salário liquido: \n");
     scanf("%f", &sal_liquido);

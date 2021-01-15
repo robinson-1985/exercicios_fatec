@@ -19,6 +19,7 @@ int main(){
         soma = n1 + n2;
 	    printf("A soma dos dois numeros e: %.2f\n", soma);
     }
+    
     else if(resposta == 2){
         printf("Digite um numero para saber a sua raiz quadrada: \n");
         scanf("%f", &n);

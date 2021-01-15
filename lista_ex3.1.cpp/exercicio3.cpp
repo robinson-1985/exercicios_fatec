@@ -12,9 +12,11 @@ int main(){
     if(n1 < n2){
         printf("\n%d é o menor e %d o maior \n", n1, n2);
     }
+
     else if(n2 < n1){
         printf("\n%d é o menor e %d o maior \n", n2, n1);
     }
+    
     else{
         printf("\nNumeros invalidos: Refazer a operacao! \n");
     }

@@ -10,7 +10,7 @@ int main(){
         printf("\nPar \n");
     }
 
-    else {
+    else{
         printf("\nÍmpar \n");
     }
     

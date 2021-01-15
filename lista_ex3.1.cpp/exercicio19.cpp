@@ -8,7 +8,6 @@ De 1.20 a 1.70         B                   E                          H
 Maiores que 1.70       C                   F                          I                */
 
 #include <stdio.h>
-
 int main(){
     float peso, altura;
     printf("Digite a sua altura (em m): \n");
@@ -20,29 +19,40 @@ int main(){
         if(peso<=60){
             printf("Classificacao: A \n");
         }
+
         else if(peso<=90){
             printf("Classificacao: B \n");
         }
+
         else{
             printf("Classificacao: C \n");
         }
-    }else if(altura<=1.70){
+
+    }
+    
+    else if(altura<=1.70){
         if(peso<=60){
             printf("Classificacao: D \n");
         }
+
         else if(peso<=90){
             printf("Classificacao: E \n");
         }
+
         else {
             printf("Classificacao: F \n");
         }
-    }else{
+    }
+    
+    else{
         if(peso <= 60){
             printf("Classificacao: G \n");
         }
+
         else if(peso <= 90){
             printf("Classificacao: H \n");
         }
+        
         else{
             printf("Classificacao: I \n");
         }

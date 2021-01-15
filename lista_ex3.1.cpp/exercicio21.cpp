@@ -21,7 +21,6 @@ caminhão e depende do estado de origem;
 ■ o valor total transportado pelo caminhão, preço da carga mais imposto. */
 
 #include <stdio.h>
-
 int main(){
         char codigo_estado;
         float peso_tonelada, codigo_carga, valor_total, imposto, peso_em_quilo, preco_carga, preco_quilo;
@@ -38,9 +37,11 @@ int main(){
         if(codigo_carga>=10 && codigo_carga<=20){
                 preco_carga = peso_em_quilo * 100;
         }
+
         else if(codigo_carga>=21 && codigo_carga<=30){
                 preco_carga = peso_em_quilo * 250;
         }
+
         else if(codigo_carga>=31 && codigo_carga<=40){
                 preco_carga = peso_em_quilo * 340;
         }
@@ -51,15 +52,19 @@ int main(){
                 imposto = preco_carga * 0.35;
                 printf("Entrou aqui, o imposto entrou no 1 %.2f", imposto);
         }
+
         else if(codigo_estado == '2'){
                 imposto = preco_carga * 0.25;
         }
+
         else if(codigo_estado == '3'){
                 imposto = preco_carga * 0.15;
         }
+
         else if(codigo_estado == '4'){
                 imposto = preco_carga * 0.05;
         }
+        
         else if(codigo_estado == '5'){
                 printf("Isento \n");
         }
