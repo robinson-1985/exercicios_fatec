@@ -2,13 +2,13 @@
 
 #include <stdio.h>
 int main(){
-    int n1, n2, soma;
+    int numero1, numero2, soma;
     printf("Digite um número: ");
-    scanf("%d", &n1);
+    scanf("%d", &numero1);
     printf("Digite outro número: ");
-    scanf("%d", &n2);
+    scanf("%d", &numero2);
 
-    soma = n1 + n2;
+    soma = numero1 + numero2;
 
     printf("A soma dos números é: %d \n", soma);
     

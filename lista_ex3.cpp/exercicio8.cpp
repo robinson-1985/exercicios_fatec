@@ -4,15 +4,15 @@ dólar e também a quantidade de dólares disponíveis com o usuário.*/
 
 #include <stdio.h>
 int main(){
-    float real, dolares, cot;
-    printf("Digite quantos dolares: \n");
+    float real, dolares, cotacao;
+    printf("Digite quantos dólares: \n");
     scanf("%f", &dolares);
-    printf("Digite a cotacao: \n");
-    scanf("%f", &cot);
+    printf("Digite a cotação: \n");
+    scanf("%f", &cotacao);
 
-    real =  dolares * cot;
+    real =  dolares * cotacao;
 
-    printf("Valor em reais: %.2f \n", (dolares*cot));
+    printf("Valor em reais: %.2f \n", real);
     
     getchar();
     return 0;

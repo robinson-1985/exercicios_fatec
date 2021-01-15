@@ -4,14 +4,14 @@
 
 #include<stdio.h>
 int main (){
-    float celsius ,fahrenheit;
+    float celsius,fahrenheit;
     printf("Digite temperatura em graus Celsius \t");
     scanf("%f",&celsius);
     printf("\n" );
 
     fahrenheit = ((9*celsius+160)/5);
 
-    printf("A teperatura em  fahrenheit = %.2f \n",fahrenheit );
+    printf("A temperatura em Fahrenheit = %.2f \n",fahrenheit );
 
     getchar();
     return 0;

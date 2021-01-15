@@ -9,9 +9,9 @@ int main(){
     float salario, vendas, comissao, salario_final;
     printf("Nome do vendedor: \n");
     scanf("%s", &nome);
-    printf("O salário e: \n");
+    printf("O salário é: \n");
     scanf("%f", &salario);
-    printf("Vendas do mes: \n");
+    printf("Vendas do mês: \n");
     scanf("%f", &vendas);
 
     comissao = vendas * 0.15;
