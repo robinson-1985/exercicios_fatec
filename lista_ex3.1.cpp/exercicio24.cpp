@@ -42,11 +42,10 @@ Entre R$ 50,00 e R$ 100,00        Normal
 >= R$ 100,00                       Caro                                */
 
 #include <stdio.h>
-
 int main(){
     float  preco, valor_adicional, novo_preco, imposto, preco_desconto, preco_de_custo;
     char refrigeracao, tipo;
-    printf("\nDeclare o preco: R$");
+    printf("\nDeclare o preco: R$ ");
     scanf("%f", &preco);
     printf("\nDeclare o tipo: A - alimentacao, L - limpeza ou V - vestuario: \n");
     scanf("%s", &tipo);
@@ -56,25 +55,32 @@ int main(){
     if(refrigeracao == 'N' && tipo == 'A' && preco < 15){
 	    valor_adicional = preco + 2;
     }
+
     else if (refrigeracao == 'N' && tipo == 'A' && preco >= 15){
 	    valor_adicional = preco + 5;
     }
+
     else if (refrigeracao == 'N' && tipo == 'L' && preco < 10){
 	    valor_adicional = preco + 1.50;
     }
+
     else if (refrigeracao == 'N' && tipo == 'L' && preco >= 10){
 	    valor_adicional = preco + 2.50;
     }
+
     else if (refrigeracao == 'N' && tipo == 'V' && preco < 30){
 	    valor_adicional = preco + 3.00;
     }
+
     else if (refrigeracao == 'N' && tipo == 'V' && preco >= 30){
 	    valor_adicional = preco + 2.50;
     }
+
     else if (refrigeracao == 'S' && tipo == 'A'){
 	    valor_adicional = preco + 8;
     }
-    else if (refrigeracao == 'S' && tipo == 'L' || tipo == 'V'){       // ou
+
+    else if (refrigeracao == 'S' && tipo == 'L' || tipo == 'V'){       
 	    printf("Sem valor adicional \n");
     }
 
@@ -83,34 +89,41 @@ int main(){
     if(preco < 25){ 
 	    imposto = preco * 0.05;
     }
+    
     else{
-	    imposto = preco * 0.08;
+	   imposto = preco * 0.08;
     }
 
     printf("O valor do imposto é: R$ %.2f \n", imposto);
 
     preco_de_custo = preco + imposto;
+
     printf("O preço de custo é: R$ %.2f \n", preco_de_custo); 
 
     if(tipo == 'A' && refrigeracao == 'S'){
 	    preco_desconto = 0.03;
     }
+
     else{
         printf("\nSem desconto \n");
     }
 
     novo_preco = preco_de_custo + valor_adicional - preco_desconto;
+
     printf("\nO valor final sera: R$%.2f \n", novo_preco);
 
     if(novo_preco <= 50){ 
 	    printf("\nBarato \n");
     }
+
     else if(novo_preco > 50 && novo_preco < 100){
         printf("\nNormal \n");
     }
+
 	else{
         printf("\nCaro \n");
     }
+
     getchar();
     return 0;
 }

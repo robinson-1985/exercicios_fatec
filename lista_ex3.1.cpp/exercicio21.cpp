@@ -32,6 +32,7 @@ int main(){
         scanf("%f", &codigo_carga);
         
         peso_em_quilo= peso_tonelada * 1000;
+        
         printf("O peso em Kg da carga do caminhão são: %.2f Kg \n", peso_em_quilo);
 
         if(codigo_carga>=10 && codigo_carga<=20){
@@ -64,7 +65,7 @@ int main(){
         else if(codigo_estado == '4'){
                 imposto = preco_carga * 0.05;
         }
-        
+
         else if(codigo_estado == '5'){
                 printf("Isento \n");
         }
