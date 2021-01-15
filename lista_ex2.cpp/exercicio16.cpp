@@ -8,29 +8,28 @@ c) o imposto equivale a 3% do salário bruto.
 d) o salário a receber equivale ao salário bruto menos o imposto. */
 
 #include<stdio.h>
-
 int main(){
-    float horaTrabalhada, salMinimo, salReceber, valorHoraTrabalhada, salBruto, imposto;
+    float hora_trabalhada, salario_minimo, salario_receber, valor_hora, salario_bruto, imposto;
     printf("Digite horas trabalhadas: \n");
-    scanf("%f",&horaTrabalhada);
+    scanf("%f",&hora_trabalhada);
     printf("Digite valor do salario minimo: \n");
-    scanf("%f",&salMinimo);
+    scanf("%f",&salario_minimo);
 
-    valorHoraTrabalhada = horaTrabalhada * (salMinimo / 2); 
+    valor_hora = hora_trabalhada * (salario_minimo / 2); 
     
-    printf("\nEsse e o valor da hora trabalhada: %.2f \n", horaTrabalhada);
+    printf("\nEsse e o valor da hora trabalhada: %.2f \n", hora_trabalhada);
     
-    salBruto = horaTrabalhada * valorHoraTrabalhada;
+    salario_bruto = hora_trabalhada * valor_hora;
 
-    printf("\nIsso corresponde ao seu salario bruto: %.2f \n", salBruto);
+    printf("\nIsso corresponde ao seu salario bruto: %.2f \n", salario_bruto);
     
-    imposto = salBruto * 0.03;
+    imposto = salario_bruto * 0.03;
 
     printf("\nO valor do imposto e: %.2f \n", imposto);
     
-    salReceber = salBruto - imposto;
+    salario_receber = salario_bruto - imposto;
 
-    printf("\nO salario a receber e: %.2f \n", salReceber);
+    printf("\nO salario a receber e: %.2f \n", salario_receber);
     
     getchar();
     return 0;

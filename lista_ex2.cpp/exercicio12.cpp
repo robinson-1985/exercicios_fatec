@@ -3,15 +3,14 @@ e mostre um elevado ao outro.*/
 
 #include<stdio.h>
 #include<math.h>
-
 int main(){
-    int n1, n2, resultado;
+    int numero1, numero2, resultado;
     printf("Digite um numero: \n");
-    scanf("%d",&n1);
+    scanf("%d",&numero1);
     printf("Digite um numero: \n");
-    scanf("%d", &n2);
+    scanf("%d", &numero2);
 
-    resultado = pow(n1, n2);
+    resultado = pow(numero1, numero2);
 
     printf("%d \n",resultado);
 

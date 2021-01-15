@@ -8,7 +8,6 @@ b) o valor correspondente aos impostos;
 c) o preço final do veículo. */
 
 #include<stdio.h>
-
 int main(){
     float precoFabrica, lucro, imposto, preco_final;
     printf("\nDeclare o preco de fabrica: \n");

@@ -2,15 +2,14 @@
 rendimento após um mês. Considere fixo o juro da poupança em 0,70% a. m. */
 
 #include <stdio.h>
-
 int main(){
-   float valor_dep, val_ren;
+   float valor_depositado, valor_rendimento;
    printf("Valor do deposito: R$ \n");
-   scanf("%f", &valor_dep);
+   scanf("%f", &valor_depositado);
 
-   val_ren = valor_dep * 0.007;
+   valor_rendimento = valor_depositado * 0.007;
 
-   printf("Valor do rendimento: R$ %.2f \n", val_ren);
+   printf("Valor do rendimento: R$ %.2f \n", valor_rendimento);
 
    getchar();
    return 0;

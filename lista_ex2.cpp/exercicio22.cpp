@@ -6,7 +6,6 @@ b) o valor a ser pago por essa residência;
 c) o valor a ser pago com desconto de 15%. */
 
 #include <stdio.h>
-
 int main(){
     float sal_minimo, consumo_quilowatts, valor_total, quilowatts, valor_pagar;
     printf("Declare o valor do salario mínimo: \n");

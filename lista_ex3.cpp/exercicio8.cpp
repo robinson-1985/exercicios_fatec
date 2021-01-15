@@ -3,7 +3,6 @@ de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cota�
 dólar e também a quantidade de dólares disponíveis com o usuário.*/
 
 #include <stdio.h>
-
 int main(){
     float real, dolares, cot;
     printf("Digite quantos dolares: \n");

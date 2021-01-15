@@ -19,15 +19,9 @@ comprado e depende do país de origem;
 ■ o valor total, preço total do produto mais imposto.                    */
 
 #include <stdio.h>
-#include <locale.h> //Biblioteca locale é utilizada para definar o idioma do programa.
-
 int main(){
-    setlocale(LC_ALL,"Portuguese"); //Comando utilizado para caracteres especiais aparecerem.
     int cod_produto,cod_pais;
     float peso,gramas,preco,imposto;
-
-    printf("Cálculo de imposto e valor de cada grama \n\n");
-
     printf("Digite o código do produto comprado (1 a 10): \n");
     scanf("%d",&cod_produto);
     printf("Digite o peso do produto(em KG): \n");

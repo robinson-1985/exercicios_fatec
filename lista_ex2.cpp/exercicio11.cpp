@@ -7,16 +7,15 @@ d) a raiz cúbica do número digitado.*/
 
 #include <stdio.h>
 #include<math.h>
-
 int main(){
-    float n1, quadrado, cubo, raiz_quadrada, raiz_cubica;
+    float numero, quadrado, cubo, raiz_quadrada, raiz_cubica;
     printf("Digite um numero positivo e maior que zero: \n");
-    scanf("%f",&n1);
+    scanf("%f",&numero);
 
-    quadrado = pow(n1,2);
-    cubo = pow(n1,3);
-    raiz_quadrada = sqrt(n1);
-    raiz_cubica = cbrt(n1);
+    quadrado = pow(numero,2);
+    cubo = pow(numero,3);
+    raiz_quadrada = sqrt(numero);
+    raiz_cubica = cbrt(numero);
 
     printf("O numero digitado ao quadrado e: %.2f \n",quadrado);
     printf("O numero digitado ao cubo e: %.2f \n",cubo);

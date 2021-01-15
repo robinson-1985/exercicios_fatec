@@ -6,18 +6,18 @@ o salário fixo e salário no final do mês.*/
 #include <stdio.h>
 int main(){
     char nome[61];
-    float salario, vendas, comissao, salarioFinal;
+    float salario, vendas, comissao, salario_final;
     printf("Nome do vendedor: \n");
     scanf("%s", &nome);
-    printf("O salario e: \n");
+    printf("O salário e: \n");
     scanf("%f", &salario);
     printf("Vendas do mes: \n");
     scanf("%f", &vendas);
 
     comissao = vendas * 0.15;
-    salarioFinal = salario + comissao;
+    salario_final = salario + comissao;
 
-    printf("O salario final e: %.2f \n", salarioFinal);
+    printf("O salario final e: %.2f \n", salario_final);
     
     getchar();
     return 0;

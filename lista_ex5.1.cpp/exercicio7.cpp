@@ -2,7 +2,6 @@
         0-1-1-2-3-5-8-13-21-34-55... */
 
 #include <stdio.h>
-
 int main(){
     int valor = 0, valor_anterior = 1, soma;
     

@@ -2,10 +2,49 @@
 a soma desses números.*/
 
 #include <stdio.h>
-#include <locale>
+int main() {
+    int numero1, numero2, numero3, numero4, soma;
+    printf("Digite o primeiro número: ");
+    scanf("%d", &numero1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &numero2);
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &numero3);
+    printf("Digite o quarto numero: ");
+    scanf("%d", &numero4);
+
+
+
+
+
+    getchar();
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main (){
-    setlocale( LC_ALL, "Portuguese");
     int n1, n2, n3, n4, soma;
     // Mostra mensagem antes da leitura dos quatro números
     // \n - coloca o cursor na linha de baixo

@@ -18,17 +18,14 @@ Calcule e mostre:
 comprado e depende do país de origem;
 ■ o valor total, preço total do produto mais imposto.*/
 
-
-//Refazer esse exercício.
-
 #include <stdio.h>
 int main(){
     float codigoProduto, pesoProduto, codigoOrigem, precoTotal, valorImposto = 0, valorTotal;
-    printf("\nDigite o codigo do produto: \n");
+    printf("\nDigite o codigo do produto de 1 a 10: \n");
     scanf("%f", &codigoProduto);
     printf("\nDigite o peso do produto em kg: \n");
     scanf("%f", &pesoProduto);
-    printf("\nDigite o codigo do pais: \n");
+    printf("\nDigite o codigo do pais(1 a 3): \n");
     scanf("%f", &codigoOrigem);
 
     if(codigoProduto >=1  && codigoProduto <=10){

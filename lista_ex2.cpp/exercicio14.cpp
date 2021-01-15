@@ -4,7 +4,6 @@ a) a idade dessa pessoa;
 b) quantos anos ela terá em 2050.       */
 
 #include <stdio.h>
-
 int main(){
     int ano_nascimento, ano_atual, idade, idade_2050, diferenca_2050;
     printf("Digite o ano do seu nascimento: \n");

@@ -4,17 +4,17 @@ ele obteve no semestre. No final informar o nome do aluno e a sua média (aritm�
 #include <stdio.h>
 int main(){
     char nome [40];
-    float n1, n2, n3, resultado;
-    printf("Digite o seu nome \n");
+    float n1, n2, n3, media_aritmetica;
+    printf("Digite o nome do aluno: \n");
     scanf("%s", &nome);
-    printf("Digite as notas do aluno em sequencia: \n");
+    printf("Digite as notas do aluno em sequência: \n");
     scanf("%f", &n1);
     scanf("%f", &n2);
     scanf("%f", &n3);
 
-    resultado = (n1 + n2 + n3) / 3;
+    media_aritmetica = (n1 + n2 + n3) / 3;
 
-    printf("A media final e: %.2f \n", resultado); 
+    printf("Nome do aluno: %s\n A média final é: %.2f \n", nome, media_aritmetica); 
     
     getchar();
     return 0;

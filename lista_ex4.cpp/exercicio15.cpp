@@ -26,7 +26,6 @@ das horas extras.
 
 O salário a receber do funcionário é igual ao salário líquido mais a gratificação.*/
 
-
 #include <stdio.h>
 int main(){
     float sal_min, sal_mes, sal_bruto, sal_liquido, horas_trab, dependente,valor_dependente, horas_extra, valor_hora_trab;
@@ -53,7 +52,6 @@ int main(){
     else{
         sal_liquido = sal_bruto - (sal_bruto / 5);
     }
-
 
     if(sal_liquido <= 350){
         sal_liquido = sal_liquido + 100;

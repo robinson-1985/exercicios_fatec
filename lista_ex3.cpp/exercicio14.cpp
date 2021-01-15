@@ -6,7 +6,6 @@ seguintes variáveis: materia1, materia2 e materia3. */
 #include <stdio.h>
 int main(){
     float materia1, materia2, materia3, resultado;
-    
     printf("\nDigite a primeira nota: \n");
     scanf("%f", &materia1);
     printf("\nDigite a segunda nota: \n");
@@ -17,6 +16,7 @@ int main(){
     if(resultado >= 7){
         printf("\nAprovado \n");
     }
+
     else{
         printf("\nReprovado \n");
     }
