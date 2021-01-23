@@ -1,49 +1,7 @@
 /* 1. Faça um programa que receba quatro números inteiros, calcule e mostre 
-a soma desses números.*/
+a soma desses números.
 
 #include <stdio.h>
-int main() {
-    int numero1, numero2, numero3, numero4, soma;
-    printf("Digite o primeiro número: ");
-    scanf("%d", &numero1);
-    printf("Digite o segundo numero: ");
-    scanf("%d", &numero2);
-    printf("Digite o terceiro numero: ");
-    scanf("%d", &numero3);
-    printf("Digite o quarto numero: ");
-    scanf("%d", &numero4);
-
-
-
-
-
-    getchar();
-    return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main (){
     int n1, n2, n3, n4, soma;
     // Mostra mensagem antes da leitura dos quatro números
@@ -62,6 +20,26 @@ int main (){
     printf("\nResultado da soma = %d\n",soma);
 
     // Para o programa a espera de um ENTER
+    getchar();
+    return 0;
+} */
+
+#include <stdio.h>
+int main() {
+    int numero1, numero2, numero3, numero4, soma;
+    printf("Digite o primeiro número: ");
+    scanf("%d", &numero1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &numero2);
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &numero3);
+    printf("Digite o quarto numero: ");
+    scanf("%d", &numero4);
+
+    soma = numero1 + numero2 + numero3 + numero4;
+
+    printf("\n A Soma dos Numreos = %d\n", soma);
+
     getchar();
     return 0;
 }
